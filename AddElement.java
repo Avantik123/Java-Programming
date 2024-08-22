@@ -12,12 +12,9 @@ public class AddElement {
         }
     
     newarr[newarr.length - 1] = newElement;
-        
-    // Print the new array using a for loop
     System.out.println("New array with added element:");
     for (int i = 0; i < newarr.length; i++) {
         System.out.print(newarr[i] + " ");
 }
     }
 }
-
